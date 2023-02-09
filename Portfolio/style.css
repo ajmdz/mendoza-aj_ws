@@ -10,11 +10,50 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.btn {
+    border-radius: 25px;
+    height: 100px;
+    width: 300px;
+    font-size: 2em;
+    background-color: green;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 90%;
+    position: absolute;
+    top: calc(100vh * .1);
+    display: flex;
+}
+
+.tabs {
+    width: 75%;
+    display: flex;
+    font-size: 3em;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    /* justify-content: flex-start; */
+}
+
+.logo {
+    width: 25%;
+    font-size: 3em;
+    display: flex;
+    
+    justify-content: center;
+}
+
 .main {
-    padding: 200px;
+    /* padding: 200px; */
+    display: flex;
     height: 100vh;
     background-color: gray;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .about {
@@ -25,10 +64,35 @@ body {
 }
 
 .portfolio {
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    /* justify-content: center; */
     padding: 100px;
     height: 75vh;
     background-color: gray;
     text-align: center;
+}
+
+.portfolio:last-child {
+    margin: auto;
+}
+
+.projects {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-item {
+    margin: 0px 10px;
+    height: 500px;
+    width: 500px;
+}
+
+.project-item img {
+    height: 100%;
 }
 
 .contact {
