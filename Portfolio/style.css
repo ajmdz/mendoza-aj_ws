@@ -6,21 +6,35 @@
 
 body {
     margin: auto;
-    width: 90%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .btn {
-    border-radius: 25px;
-    height: 100px;
-    width: 300px;
-    font-size: 2em;
+    border-radius: 10px;
     background-color: green;
     color: white !important;
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
+    /* justify-self: center; */
+}
+
+.btn-lg {
+    height: 100px;
+    width: 300px;
+    font-size: 2em;
+}
+
+.btn-sm {
+    height: 75px;
+    width: 250px;
+    font-size: 1em;
 }
 
 nav {
@@ -101,6 +115,52 @@ nav {
     height: 100vh;
     background-color: sandybrown;
     text-align: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: crimson;
+    font-size: 1.5em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.icon-s {
+    height: 32px;
+    width: 32px;
+}
+
+.icon-m {
+    height: 64px;
+    width: 64px;
+}
+
+.socials {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.email-form {
+    width: 55%;
+    background-color: coral;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 footer {
