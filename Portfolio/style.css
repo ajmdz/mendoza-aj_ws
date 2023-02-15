@@ -7,7 +7,8 @@
 body {
     margin: auto;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #1E1E1F;
+    font-family: 'Inter', sans-serif;;
 }
 
 a {
@@ -16,15 +17,11 @@ a {
 
 h1 {
     font-size: 8em;
+    color: white;
 }
 
 h2 {
     font-size: 3em;
-}
-
-h2:nth-of-type(4) {
-    /* text-align: left; */
-    color: white;
 }
 
 .btn {
@@ -56,6 +53,8 @@ nav {
     position: absolute;
     top: calc(100vh * .1);
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .tabs {
@@ -64,14 +63,16 @@ nav {
     font-size: 2em;
     justify-content: space-evenly;
     padding: 0px 100px;
+    color: white;
     /* justify-content: flex-start; */
 }
 
 .logo {
     width: 25%;
     font-size: 3em;
+    font-weight: 800;
     display: flex;
-    
+    color: white;
     justify-content: center;
 }
 
@@ -79,16 +80,25 @@ nav {
     /* padding: 200px; */
     display: flex;
     height: 100vh;
-    background-color: gray;
+    /* background-color: gray; */
+    background-image:url('./img/bg75p.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
+.main h2, .portfolio h2{
+    color: white;
+    /* text-shadow: 0 2px #1E1E1F; */
+}
+
 .about {
     padding: 50px;
     height: 50vh;
-    background-color: salmon;
+    background-color: #f1d796;
     text-align: center;
 }
 
@@ -99,7 +109,7 @@ nav {
     /* justify-content: center; */
     padding: 100px;
     height: 100vh;
-    background-color: gray;
+    background-color: #4B87B4;
     text-align: center;
 }
 
@@ -127,7 +137,7 @@ nav {
 .contact {
     padding: 100px;
     height: 100vh;
-    background-color: sandybrown;
+    background-color: #f1d796;
     text-align: center;
 }
 
@@ -187,11 +197,14 @@ nav {
     width: 100%;
     height: 15%;
     font-size: 2em;
-    background-color: grey;
-    color: white;
+    background-color: white;
+    color: black !important;
     padding: 25px;
     border: none;
     outline: none;
+}
+.text-input::placeholder, .text-area::placeholder {
+    color: #1E1E1F !important;
 }
 
 .text-area {
@@ -200,8 +213,8 @@ nav {
     height: 40%;
     font-family: inherit !important;
     font-size: 2em !important;
-    background-color: grey;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 25px;
     border: none;
     font: inherit;
@@ -226,7 +239,8 @@ footer {
     align-items: center;
     padding: 25px;
     height: 10vh;
-    background-color: skyblue;
+    background-color: #1E1E1F;
+    color: white;
     font-size: 1.5em;
 }
 
