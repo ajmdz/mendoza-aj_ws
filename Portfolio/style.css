@@ -101,10 +101,10 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 50px;
-    height: 55vh;
+    padding: 70px;
+    height: 52vh;
     background-color: #f1d796;
-    text-align: center;
+    text-align: left;
 }
 
 .portfolio {
