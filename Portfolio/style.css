@@ -13,6 +13,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h2 {
 .btn {
     border-radius: 10px;
     border: none;
-    background-color: green;
+    background-color: #379237;
     color: white !important;
     display: flex;
     justify-content: center;
@@ -37,7 +38,7 @@ h2 {
 }
 
 .btn-lg {
-    height: 100px;
+    height: 75px;
     width: 300px;
     font-size: 2rem;
 }
@@ -96,8 +97,12 @@ nav {
 }
 
 .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     padding: 50px;
-    height: 50vh;
+    height: 55vh;
     background-color: #f1d796;
     text-align: center;
 }
@@ -107,9 +112,9 @@ nav {
     flex-direction: column;
     /* align-content: center; */
     /* justify-content: center; */
-    padding: 100px;
-    height: 100vh;
-    background-color: #4B87B4;
+    padding: 50px 100px;
+    height: 110vh;
+    background-color: #6fbaf3;
     text-align: center;
 }
 
@@ -118,20 +123,21 @@ nav {
 }
 
 .projects {
-    margin-top: 50px;
+    margin: 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .project-item {
-    margin: 0px 10px;
-    height: 300px;
+    margin: 0px 20px;
+    height: 400px;
     width: 300px;
 }
 
 .project-item img {
-    height: 50%;
+    height: 100%;
+    
 }
 
 .contact {
@@ -198,7 +204,7 @@ nav {
     height: 15%;
     font-size: 2em;
     background-color: white;
-    color: black !important;
+    color: #1E1E1F !important;
     padding: 25px;
     border: none;
     outline: none;
@@ -214,7 +220,7 @@ nav {
     font-family: inherit !important;
     font-size: 2em !important;
     background-color: white;
-    color: black;
+    color: #1E1E1F !important;
     padding: 25px;
     border: none;
     font: inherit;
